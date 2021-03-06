@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ 3.13 (Order of Evaluation) State the order of evaluation of the operators in each of the following
+      C# statements and show the value of x after each statement is performed:
+
+a) x = 7 + 3 * 6 / 2 - 1;
+
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

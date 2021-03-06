@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+   3.15 (Arithmetic) Write an app that asks the user to enter two integers, obtains them from the
+        user and displays their sum, product, difference and quotient (division). Use the techniques shown
+        in Fig. 3.14.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

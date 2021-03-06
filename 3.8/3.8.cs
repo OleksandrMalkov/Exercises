@@ -1,20 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+   3.8 Write C# statements that accomplish each of the following tasks:
+a) Display the message "Enter an integer: ", leaving the cursor on the same line.
+b) Assign the product of variables b and c to variable a.
+c) State that an app performs a simple payroll calculation (i.e., use text that helps to document an app).
+   
+Answers:
 
-namespace _3._8
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.Write("Enter an integer: "); // a)
-
-            a = b + c; // b)
-
-            // this app performs a simple payroll calculation     c)
-        }
-    }
-}
+a) Console.Write("Enter an integer: ");
+b)  a = b + c; 
+c) // this app performs a simple payroll calculation 
+*/

@@ -1,9 +1,8 @@
-﻿
+﻿/* 
+3.18 (Displaying Shapes with Asterisks) Write an app that displays a box, an oval, an arrow and
+     a diamond using asterisks (*), as follows: 
+*/
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _3._16
 {

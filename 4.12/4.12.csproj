@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4FD85535-71A2-4EDA-A336-C6885FEABED6}</ProjectGuid>
+    <ProjectGuid>{4720750B-79DE-4368-99C7-90FB6639B1A9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_3._16</RootNamespace>
-    <AssemblyName>3.16</AssemblyName>
+    <RootNamespace>_4._12</RootNamespace>
+    <AssemblyName>4.12</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="3.18.cs" />
+    <Compile Include="Invoice.cs" />
+    <Compile Include="4.12.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

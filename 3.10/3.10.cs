@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+  3.10 Assuming that x=2 and y=3, what does each of the following statements display?
+ a) Console.WriteLine( "x = {0}", x );
+ b) Console.WriteLine( "Value of {0} + {0} is {1}", x, ( x + x ) );
+ c) Console.Write( "x =" );
+ d) Console.WriteLine( "{0} = {1}", ( x + y ), ( y + x ) );
 
-namespace _3._10
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            /* a) x = 2
-             * b) Value of 2 + 2 is 4
-             * c) x =
-             * d) 5 = 5  */
-        }
-    }
-}
+Answers:
+
+ a) x = 2
+ b) Value of 2 + 2 is 4
+ c) x =
+ d) 5 = 5            
+*/
