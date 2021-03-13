@@ -26,12 +26,12 @@ namespace _4._12
             item2.Validation();
             Console.WriteLine();
             Console.WriteLine();
-
-            Console.WriteLine("Invoice for item1 is: ");
-            item1.GetInvoiceAmount();
+            
+            Console.WriteLine("Invoice for item1 is: \n{0}", item1.GetInvoiceAmount());
+           
             Console.WriteLine();
-            Console.WriteLine("Invoice for item2 is: ");
-            item2.GetInvoiceAmount();
+            Console.WriteLine("Invoice for item2 is: \n{0}", item2.GetInvoiceAmount());
+            
             Console.ReadLine();
         }
 
