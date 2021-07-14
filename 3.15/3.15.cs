@@ -10,39 +10,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _3._14
+namespace _3._15
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int x, y, sum, average, product, smallest, larges;
+            int int1, int2;
 
             Console.Write("Enter first integer: ");
-            x = Convert.ToInt32(Console.ReadLine());
+            int1 = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Enter second integer: ");
-            y = Convert.ToInt32(Console.ReadLine());
+            int2 = Convert.ToInt32(Console.ReadLine());
 
-            sum = x + y;
+            Console.WriteLine();
+            Console.WriteLine("Sum is: {0}", int1 + int2);
 
-            Console.WriteLine("Sum is {0}", sum);
+            Console.WriteLine("Product is: {0}", int1 * int2);
 
-            average = (x + y) / 2;
+            Console.WriteLine("Difference is: {0}", int1 - int2);
 
-            Console.WriteLine("Average is {0}", average);
+            Console.WriteLine("Quintient is: {0}", int1 / int2);
 
-            product = x * y;
-
-            Console.WriteLine("Product is {0}", product);
-
-            if (x > y)
-                Console.WriteLine("{0} smallest number\n{1} larges number", y, x);
-
-            if (y > x)
-                Console.WriteLine("{0} smallest number\n{1} larges number", x, y);
-
-            Console.Read();
+            Console.ReadKey();
         }
     }
 }

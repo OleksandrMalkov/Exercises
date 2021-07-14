@@ -52,9 +52,9 @@ public class Invoice
             PartNumber, PartDescription, Quantity, pricePerItem); //method for validation
     }
 
-    public void GetInvoiceAmount()
+    public decimal GetInvoiceAmount()
     {
-        Console.WriteLine(Quantity * PricePerItem);
+        return Quantity * PricePerItem;
     }
 }
 
